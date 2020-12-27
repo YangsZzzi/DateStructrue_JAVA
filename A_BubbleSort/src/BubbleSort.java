@@ -18,7 +18,7 @@ public class BubbleSort {
     }
     public void bubbbleSort(int[] arr){
         int n = arr.length;
-        for (int i = n; i >=0 ; i--)  bubble(arr,n);
+        for (int i = n; i > 0 ; i--)  bubble(arr,n);//n为数组长度
 
     }
     private void swap(int[] arr,int i,int j){
