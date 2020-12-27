@@ -1,6 +1,6 @@
 public class BubbleSort {
     /**
-     * 两两比较相邻位置
+     * 两两比较相邻位置。
      */
     public static void main(String[] args) {
         int[] arr ={8,5,1,6,4,3,10,0,-2};
